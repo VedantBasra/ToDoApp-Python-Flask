@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+</head>
+<body>
+    <div class="ui container" style="margin-top: 50px;">
+        <h1 class="ui center aligned header">Edit Task</h1>
+
+        <!-- Create a form for editing the task -->
+        <form class="ui form" action="/edit/{{ todo.id }}" method="post">
+            <div class="field">
+                <label for="title">Edit Task:</label>
+                <input type="text" name="title" value="{{ todo.title }}" placeholder="Enter Task">
+                <br>
+                <button class="ui blue button" type="submit">Save Changes</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
