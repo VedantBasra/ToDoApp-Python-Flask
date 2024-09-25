@@ -12,15 +12,9 @@ A simple to-do list application built using Python (Flask) and HTML with UI usin
    ```bash
    cd your-repo
    ```
-
-3. Install the dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the application:
+3. Run the application:
    ```bash
    python app.py
    ```
 
-   5. Open your browser and go to `http://localhost:5000/` to see the app.
+4. Open your browser and go to `http://localhost:5000/` to see the app.
